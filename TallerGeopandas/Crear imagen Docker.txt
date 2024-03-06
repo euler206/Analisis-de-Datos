@@ -1,0 +1,12 @@
+
+https://www.datos.gov.co/Econom-a-y-Finanzas/Precios-Combustibles-2017-1-/x6id-4v3g/about_data
+renombrar por: precios_combustibles.csv
+
+https://datosabiertos-esri-colombia.opendata.arcgis.com/datasets/623a71c7f5c94bada0416879df0effe4/explore
+renombrar por: municipios.geojson
+
+**************************************************
+
+docker build . -t geopandas_img
+
+docker run -p 8888:8888 geopandas_img
